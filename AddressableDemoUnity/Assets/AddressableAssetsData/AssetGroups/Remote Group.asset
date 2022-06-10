@@ -10,28 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Retorm Group
+  m_Name: Remote Group
   m_EditorClassIdentifier: 
-  m_GroupName: Retorm Group
+  m_GroupName: Remote Group
   m_Data:
     m_SerializedData: []
-  m_GUID: fe069b39cd61e10418145d7a6cc607f4
+  m_GUID: b2877afbea053414eaf7ec39eb434cc0
   m_SerializeEntries:
   - m_GUID: 5f1a712aa23780d46b4cee078e22da12
     m_Address: MainScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 23bdda1e5b8fa6a439391f4998e25d03
-    m_Address: PlayScene
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 1241929d5a675904294f5886f80078d8
-    m_Address: Assets/Audio
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 88635a02e6d874e4ab93fb6d0e7f98e4, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 2e9b3f5719460aa42bce339811b17131, type: 2}
-    - {fileID: 11400000, guid: 53e2c5e8e1539d848a1994b6af25fcf9, type: 2}
+    - {fileID: 11400000, guid: 06b12753aaa897b40bc25a8aa1d4e2c8, type: 2}
+    - {fileID: 11400000, guid: 5076ab07e7f613b4f8d4f73a993feabd, type: 2}

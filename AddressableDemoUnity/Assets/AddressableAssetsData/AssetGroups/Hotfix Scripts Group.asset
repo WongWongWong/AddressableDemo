@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Hotfix Scripts Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Hotfix Scripts Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 37e0fe714451e58499d91e3287a7acfd
+  m_SerializeEntries:
+  - m_GUID: 5fdf63eed466fe740a7e72f67b80dca8
+    m_Address: Assets/AssemblyHotfixToolkit/Addressable/HotFixScripts.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3444c895490a69740b2f97cf3eeb9fae
+    m_Address: Assets/AssemblyHotfixToolkit/Hotfix Assemblies Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 88635a02e6d874e4ab93fb6d0e7f98e4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d512cb3847848184bb924e1ec82a018a, type: 2}
+    - {fileID: 11400000, guid: 768ab2e8a2ef68945b200a8fdcf73c77, type: 2}

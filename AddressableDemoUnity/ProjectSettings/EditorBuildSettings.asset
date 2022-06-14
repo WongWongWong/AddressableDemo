@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/HRM/Scenes/HRMScene.unity
+    path: Assets/Start/HRMScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: d5468f6ffe2b82c43ad9b696c695354a, type: 2}

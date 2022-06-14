@@ -122,7 +122,7 @@ namespace HRM
         /// </summary>
         void LoadScene()
         {
-            Addressables.LoadSceneAsync("Assets/HoxFixAssets/Scenes/MainScene.unity");
+            Addressables.LoadSceneAsync("Assets/HoxFixAssets/Scenes/LoginScene.unity");
         }
     }
 }

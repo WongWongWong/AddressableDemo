@@ -4,16 +4,13 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.AddressableAssets.ResourceLocators;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.UI;
 using zFramework.Hotfix.Toolkit;
-using static zFramework.Hotfix.Toolkit.HotfixLoader;
 
 namespace HRM
 {
     public class HRMController : MonoBehaviour
     {
-        [SerializeField, Tooltip("代码执行脚本")]
-        HotfixLoader hotfixLoader;
-
         /// <summary>
         /// 更新列表
         /// </summary>
@@ -22,6 +19,12 @@ namespace HRM
         private void Start()
         {
             InitAddressbles();
+            //Debug.Log("我草泥马");
+            var text = GameObject.Find("Text");
+            if (text)
+            {
+                text.GetComponent<Text>().text = "尼玛";
+            }
         }
 
         /// <summary>
@@ -60,7 +63,7 @@ namespace HRM
             else
             {
                 //无需更新
-                RunScripts();
+                LoadScene();
             }
         }
 
@@ -111,15 +114,7 @@ namespace HRM
         /// </summary>
         void UpdateCatalogsComplete(AsyncOperationHandle<List<IResourceLocator>> completeHandler)
         {
-            RunScripts();
-        }
-
-        /// <summary>
-        /// 替换最新代码
-        /// </summary>
-        void RunScripts()
-        {
-            hotfixLoader.RunScripts(LoadScene);
+            LoadScene();
         }
 
         /// <summary>

@@ -9,7 +9,7 @@ using zFramework.Hotfix.Toolkit;
 
 namespace HRM
 {
-    public class HRMController : MonoBehaviour
+    public class HRMScene : MonoBehaviour
     {
         /// <summary>
         /// 更新列表
@@ -23,7 +23,7 @@ namespace HRM
             var text = GameObject.Find("Text");
             if (text)
             {
-                text.GetComponent<Text>().text = "尼玛";
+                text.GetComponent<Text>().text = "可以哦";
             }
         }
 
@@ -122,7 +122,7 @@ namespace HRM
         /// </summary>
         void LoadScene()
         {
-            Addressables.LoadSceneAsync("Assets/HoxFixAssets/Scenes/LoginScene.unity");
+            //Addressables.LoadSceneAsync("Assets/HoxFixAssets/Scenes/LoginScene.unity");
         }
     }
 }
